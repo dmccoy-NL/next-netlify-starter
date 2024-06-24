@@ -35,6 +35,7 @@ export default function Home() {
           containerId: "payper-widget-container",
           blockTo: ".article-title",
           initCode,
+          environment: "shared",
         });
       }, 1000);
     }
