@@ -31,7 +31,7 @@ export default function Home() {
   useEffect(() => {
     if (window && initCode) {
       setTimeout(() => {
-        window.initPayer({
+        window.initPayper({
           containerId: "payper-widget-container",
           blockTo: ".article-title",
           initCode,
